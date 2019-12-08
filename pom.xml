@@ -37,6 +37,11 @@
     </dependency>
   </dependencies>
   <build>
+	<resources>
+      	<resource>
+        <directory>main/java/com/mycompany/app</directory>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
 	<groupId>org.codehaus.mojo</groupId>
